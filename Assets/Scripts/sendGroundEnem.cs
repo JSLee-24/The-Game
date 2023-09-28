@@ -10,8 +10,8 @@ public class sendGroundEnem : MonoBehaviour
 {
     public GameObject groundEnem;           //the gameObject we are deploying
 
-    private const float MIN_Y = -5;         //minimum location for the enemy on the y-axis
-    private const float MAX_Y = -1;         //maximun location for the enemy on the x-axis
+    private const float MIN_Y = -4.5f;      //minimum location for the enemy on the y-axis
+    private const float MAX_Y = -1f;        //maximun location for the enemy on the x-axis
     private Vector3 screenBounds;           //a vector3 representing the bounds of the game's screen
     private int difficultyCounter = 100;    //this will be used to determine when to increase the difficulty (every 100 points the difficulty will be increased)
     private float minSpawnTime = 2;         //the minimum time between spawning the Farrow objects
